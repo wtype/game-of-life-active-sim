@@ -102,7 +102,7 @@ const App = () => {
           runningRef.current = true;
           runSimulation();
         }
-      }}>{running ? 'stop' : 'start'}</button>
+      }}>{running ? 'Stop' : 'Start'}</button>
       <button style={buttonStyle} onClick={() => {
         setGrid(emptyGrid);
       }}>Clear</button>
